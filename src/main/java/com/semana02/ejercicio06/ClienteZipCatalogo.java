@@ -18,8 +18,8 @@ public class ClienteZipCatalogo {
     public ClienteZipCatalogo(){
         //PASO 1 Generar los archivos
         System.out.println("1 Generando archivos JSON, XLSX ZIP");
-        GenerateZipCatalogo generateZipPais = new GenerateZipCatalogo();
-        generateZipPais.procesar();
+        GenerateZipCatalogo generateZipCatalogo = new GenerateZipCatalogo();
+        generateZipCatalogo.procesar();
         
 
         //PASO 2 Crear el Socket CLiente
